@@ -8,7 +8,3 @@ services:
   slave:
     image: devopsevd/oss-jmeter-slave
 
-networks:
-  default:
-    external:
-      name: bundlev2_prodnetwork
